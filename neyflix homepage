@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Netflix</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Netflix</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">TV Shows</a>
+      <a href="#">Movies</a>
+      <a href="#">My List</a>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>Popular on Netflix</h2>
+      <ul>
+        <li><a href="#">The Witcher</a></li>
+        <li><a href="#">The Crown</a></li>
+        <li><a href="#">Stranger Things</a></li>
+        <li><a href="#">The Umbrella Academy</a></li>
+      </ul>
+    </section>
+    <section>
+      <h2>New Releases</h2>
+      <ul>
+        <li><a href="#">The Queen's Gambit</a></li>
+        <li><a href="#">The Midnight Sky</a></li>
+        <li><a href="#">Ma Rainey's Black Bottom</a></li>
+        <li><a href="#">The Trial of the Chicago 7</a></li>
+      </ul>
+    </section>
+    <section>
+      <h2>My List</h2>
+      <ul>
+        <li><a href="#">The Witcher</a></li>
+        <li><a href="#">The Crown</a></li>
+        <li><a href="#">Stranger Things</a></li>
+        <li><a href="#">The Umbrella Academy</a></li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>Copyright © 2021 Netflix</p>
+  </footer>
+</body>
+</html>
+
+#css*/*
+body {
+  font-family: sans-serif;
+  line-height: 1.6;
+}
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 1rem;
